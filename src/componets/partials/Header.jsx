@@ -10,22 +10,25 @@ const Header = () => {
   return (
     <>
         {/* Navigation */}
-        <nav className="bg-white shadow-lg sticky top-0 z-50">
-            <div className="max-w-6xl mx-auto px-4">
-                <div className="flex justify-between items-center py-4">
+        <nav className="bg-white shadow-lg sticky top-0 z-50 w-full">
+            <div className="max-w-7xl mx-auto px-4">
+                <div className="flex justify-between items-center py-4
+                xl:py-3">
                     <div className="flex items-center space-x-2">
-                       <h1 className="text-xl font-bold bg-gradient-to-r from-purple-500 to bg-pink-500 text-transparent bg-clip-text">
-                          Bubble Bliss
-                        </h1>
-                        <p>🧋</p>
+                      <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-500 to bg-pink-500 text-transparent bg-clip-text
+                      xl:text-xl">
+                        Bubble Bliss
+                      </h1>
+                      <p>🧋</p>
                         
                     </div>
-                    <div className="hidden md:flex space-x-8 text-gray-500">
-                        <a href="#home" className=' font-medium hover:text-purple-500'>Home</a>
-                        <a href="#services" className=' font-medium hover:text-purple-500'>Types</a>
-                        <a href="#doctors" className=' font-medium hover:text-purple-500'>Toppings</a>
-                        <a href="#emergency" className='font-medium hover:text-purple-500'>Benifits</a>
-                        <a href="#pharmacy" className=' font-medium hover:text-purple-500'>Contact</a>
+                    <div className="hidden md:flex space-x-8 text-gray-500 font-medium
+                    xl:text-md">
+                        <a href="#home" className='hover:text-pink-300'>Home</a>
+                        <a href="#types" className='hover:text-pink-300'>Types</a>
+                        <a href="#toppings" className='hover:text-pink-300'>Toppings</a>
+                        <a href="#benifits" className='hover:text-pink-300'>Benifits</a>
+                        <a href="#contact" className=' hover:text-pink-300'>Contact</a>
                     </div>
                     <button
                     onClick={toggleMenu}
@@ -45,11 +48,11 @@ const Header = () => {
         }`}
       >
         <div className="flex flex-col text-gray-500 items-center space-y-8 text-2xl">
-          <a href="#home" className='font-medium hover:text-pink-500'>Home</a>
-            <a href="#services" className='font-medium hover:text-pink-500' onClick={() => setIsMenuOpen(false)}>Services</a>
-            <a href="#doctors" className='font-medium hover:text-pink-500' onClick={() => setIsMenuOpen(false)}>Doctors</a>
-            <a href="#emergency" className='font-medium hover:text-pink-500' onClick={() => setIsMenuOpen(false)}>Emergency</a>
-            <a href="#pharmacy" className='font-medium hover:text-pink-500' onClick={() => setIsMenuOpen(false)}>Pharmacy</a>
+            <a href="#home" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Home</a>
+            <a href="#types" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Types</a>
+            <a href="#toppings" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Toppings</a>
+            <a href="#benifits" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Benifits</a>
+            <a href="#contact" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Contact</a>
       </div>
     </div>
     </>
