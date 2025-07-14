@@ -5,7 +5,7 @@ const Toppings = () => {
   return (
     <>
         {/* Toppings Section */}
-        <section className="w-full py-16 bg-purple-50
+        <section id="toppings" className="w-full py-16 bg-purple-50
         xl:py-16">
           <div className="max-w-[98.5rem] mx-auto px-4 justify-items-center">
             <div className='text-center mb-14

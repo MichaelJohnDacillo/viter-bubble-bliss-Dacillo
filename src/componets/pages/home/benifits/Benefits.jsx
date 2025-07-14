@@ -5,7 +5,7 @@ const Benifits = () => {
   return (
     <>
       {/* Benefits */}
-      <section className='w-full py-16
+      <section id="benefits" className='w-full py-16
       xl:pt-[4.5rem] xl:pb-[3.6rem]'>
         <div className="max-w-[98.5rem] mx-auto px-4 ">
             <div className='justify-items-center text-center

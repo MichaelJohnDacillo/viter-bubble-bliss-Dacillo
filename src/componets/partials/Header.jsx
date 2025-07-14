@@ -27,7 +27,7 @@ const Header = () => {
                         <a href="#home" className='hover:text-pink-300'>Home</a>
                         <a href="#types" className='hover:text-pink-300'>Types</a>
                         <a href="#toppings" className='hover:text-pink-300'>Toppings</a>
-                        <a href="#benifits" className='hover:text-pink-300'>Benifits</a>
+                        <a href="#benefits" className='hover:text-pink-300'>Benefits</a>
                         <a href="#contact" className=' hover:text-pink-300'>Contact</a>
                     </div>
                     <button
@@ -51,7 +51,7 @@ const Header = () => {
             <a href="#home" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Home</a>
             <a href="#types" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Types</a>
             <a href="#toppings" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Toppings</a>
-            <a href="#benifits" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Benifits</a>
+            <a href="#benefits" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Benefits</a>
             <a href="#contact" className='font-medium hover:text-pink-300' onClick={() => setIsMenuOpen(false)}>Contact</a>
       </div>
     </div>

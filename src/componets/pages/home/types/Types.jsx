@@ -4,7 +4,7 @@ import TypesCard from '../../../partials/TypesCard';
 const Types = () => {
   return (
     <>
-      <section className="w-full pt-16 pb-10
+      <section id="types" className="w-full pt-16 pb-10
       xl:pt-16 xl:pb-12">
         <div className="max-w-[98.5rem] mx-auto px-4">
           <h2 className='font-bold text-3xl text-center mb-12

@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-        <section className="w-full py-20 bg-gradient-to-br from-pink-100 to-purple-100
+        <section id="contact" className="w-full py-20 bg-gradient-to-br from-pink-100 to-purple-100
         xl:py-16">
           <div className="max-w-[98.5rem] mx-auto px-4 justify-items-center">
             <h2 className='font-bold text-3xl text-center mb-2'>Get Your <span className='bg-gradient-to-r from-purple-500 to bg-pink-500 text-transparent bg-clip-text'>Milk Tea</span> Fix</h2>
