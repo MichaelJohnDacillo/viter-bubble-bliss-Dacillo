@@ -5,12 +5,12 @@ const Types = () => {
   return (
     <>
       <section className="w-full pt-16 pb-10
-      xl:pt-14 xl:pb-9">
-        <div className="max-w-7xl mx-auto px-4">
+      xl:pt-16 xl:pb-12">
+        <div className="max-w-[98.5rem] mx-auto px-4">
           <h2 className='font-bold text-3xl text-center mb-12
-          xl:text-2xl xl:mb-10'>Popular <span className='bg-gradient-to-r from-purple-500 to bg-pink-500 text-transparent bg-clip-text'>Milk Tea</span> Types
+          xl: xl:mb-12'>Popular <span className='bg-gradient-to-r from-purple-500 to bg-pink-500 text-transparent bg-clip-text'>Milk Tea</span> Types
           </h2>
-          <div className='xl:grid xl:grid-cols-3 xl:gap-8'> 
+          <div className='md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-3'> 
             <TypesCard
             bg="bg-pink-100"
             emoji="🥛"

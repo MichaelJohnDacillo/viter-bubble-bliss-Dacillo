@@ -10,19 +10,19 @@ const Header = () => {
   return (
     <>
         {/* Navigation */}
-        <nav className="bg-white shadow-lg sticky top-0 z-50 w-full">
-            <div className="max-w-7xl mx-auto px-4">
+        <nav className="bg-white shadow-md sticky top-0 z-50 w-full">
+            <div className="max-w-[96.5rem] mx-auto px-4">
                 <div className="flex justify-between items-center py-4
                 xl:py-3">
                     <div className="flex items-center space-x-2">
                       <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-500 to bg-pink-500 text-transparent bg-clip-text
-                      xl:text-xl">
+                      ">
                         Bubble Bliss
                       </h1>
                       <p>🧋</p>
                         
                     </div>
-                    <div className="hidden md:flex space-x-8 text-gray-500 font-medium
+                    <div className="hidden md:flex space-x-8 text-gray-800
                     xl:text-md">
                         <a href="#home" className='hover:text-pink-300'>Home</a>
                         <a href="#types" className='hover:text-pink-300'>Types</a>
