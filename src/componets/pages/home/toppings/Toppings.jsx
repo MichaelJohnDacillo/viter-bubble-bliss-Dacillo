@@ -15,29 +15,28 @@ const Toppings = () => {
               <p className='text-gray-600
               xl:text-md'>Customize your milk tea with these tasty additions that add texture and flavor.</p>
             </div>
-          <div className='grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
-            <ToppingsCard
-            bg={"bg-pink-100"}
-            emoji={"🟤"}
-            name={"Boba Pearls"}/>
-            <ToppingsCard
-            bg={"bg-yellow-100"}
-            emoji={"🍮"}
-            name={"Pudding"}/>
-            <ToppingsCard
-            bg={"bg-red-100"}
-            emoji={"🧊"}
-            name={"Jelly"}/>
-            <ToppingsCard
-            bg={"bg-green-100"}
-            emoji={"🥥"}
-            name={"Coconut"}/>
-            <ToppingsCard
-            bg={"bg-blue-100"}
-            emoji={"🧈"}
-            name={"Cheese Foam"}/>
-            
-          </div>
+            <div className='grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
+              <ToppingsCard
+              bg={"bg-pink-100"}
+              emoji={"🟤"}
+              name={"Boba Pearls"}/>
+              <ToppingsCard
+              bg={"bg-yellow-100"}
+              emoji={"🍮"}
+              name={"Pudding"}/>
+              <ToppingsCard
+              bg={"bg-red-100"}
+              emoji={"🧊"}
+              name={"Jelly"}/>
+              <ToppingsCard
+              bg={"bg-green-100"}
+              emoji={"🥥"}
+              name={"Coconut"}/>
+              <ToppingsCard
+              bg={"bg-blue-100"}
+              emoji={"🧈"}
+              name={"Cheese Foam"}/>
+            </div>
           </div>
           
         </section>
